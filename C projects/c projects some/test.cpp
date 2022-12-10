@@ -1,5 +1,5 @@
 #include<stdio.h>
 int main()
 {
-    printf("中文分时");
+    printf("哇哦");
 }
