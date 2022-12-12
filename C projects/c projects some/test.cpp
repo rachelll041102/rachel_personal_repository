@@ -1,11 +1,12 @@
 #include<stdio.h>
+int fn(int *)
+{
+    printf(".");
+}
 int main()
 {
-    int a,b=10;
+    int a;
     int *p;
-    *p=b;
-    printf("%#x\n",p);
-    a=*p++;
-    printf("%d\n",a);
-    printf("%#x\n",p);
+    p=&a;
+    fn(p);
 }
