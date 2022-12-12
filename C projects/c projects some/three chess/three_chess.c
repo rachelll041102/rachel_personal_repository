@@ -19,7 +19,7 @@ int main()
             printf("------------\n");
             printf(" %c | %c | %c\n",game[2][0],game[2][1],game[2][2]);
             printf("------------\n");
-            printf("请输入你的步数:");
+            printf("请输入要走的步数:");
             suiji_man=1;
             while(suiji_man)
             {
@@ -73,6 +73,6 @@ int main()
 void menu()
 {
     int a;
-    printf("请输入开始游戏:1\n");
-    printf("请输入结束游戏:0\n");
+    printf("开始游戏请输入:1\n");
+    printf("结束游戏请输入:0\n");
 }
