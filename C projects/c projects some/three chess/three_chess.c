@@ -51,7 +51,7 @@ int main()
                 if(game[i][0]==game[i][1]&&game[i][1]==game[i][2]&&game[i][0]!=' ')panduan=0;
                 if(game[0][i]==game[1][i]&&game[1][i]==game[2][i]&&game[0][i]!=' ')panduan=0;
                 if(game[0][0]==game[1][1]&&game[1][1]==game[2][2]&&game[0][0]!=' ')panduan=0;
-                if(game[2][0]==game[1][1]&&game[1][1]==game[2][0]&&game[2][0]!=' ')panduan=0;
+                if(game[2][0]==game[1][1]&&game[1][1]==game[0][2]&&game[2][0]!=' ')panduan=0;
             }
             
         }while(panduan);
